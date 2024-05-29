@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Button</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            min-height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* background: #e8f9f8; */
+        }
+
+        .container{
+            height: 500px;
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button{
+            height: 70px;
+            width: 200px;
+            cursor: pointer;
+            border: 1px solid red;
+            border-radius: 40px 0px;
+            background-color: white;
+            font-size: 2rem;
+            color: red;
+            transition: all 1.5s;
+        }
+
+        button:hover{
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <button>Subscribe</button>
+    </div>
+    
+</body>
+</html>
